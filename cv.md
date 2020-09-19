@@ -19,21 +19,13 @@
 
 ### Skills:
 
-| Skills | Other                                 |
-| ------ | ------------------------------------- |
-| HTML   | Semantic layoult, BEM.                |
-| CSS    | Sass, Adaptive layout, Flexbox, Grid. |
-
-<<<<<<< HEAD
-| JS | jQuery |
-| Wordpress | Admin panel, Feedback form |
-| Git | Hosting, Domain |
-=======
-| JS | jQuery. |
-| Wordpress | Admin panel |
-| Git |
-
-> > > > > > > parent of f91753e... delete point
+| Skills    | Other                                 |
+| --------- | ------------------------------------- |
+| HTML      | Semantic layoult, BEM.                |
+| CSS       | Sass, Adaptive layout, Flexbox, Grid. |
+| JS        | jQuery                                |
+| Wordpress | Admin panel, Feedback form            |
+| Git       | Hosting, Domain                       |
 
 ### My latest projects:
 
