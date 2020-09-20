@@ -1,0 +1,155 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+@media ( max-width: 992px )
+  .container
+    max-width: 700px
+  .header
+    &-menu
+      display: none
+    &__social-networks
+      width: 110px
+  .logo
+    width: 30px
+    height: 30px
+    &-text
+      font-size: 14px
+
+  .hero
+    &-avatar
+      width: 300px
+      height: 300px
+    &-text
+      &__name
+        font-size: 40px        
+        line-height: 48px
+      &__button
+        padding: 20px 80px
+    
+@media ( max-width: 768px )
+  .container
+    max-width: 576px
+    width: 92%
+  .header
+    margin-bottom: 40px
+  .hero
+    margin-bottom: 120px
+    &-wrapper 
+      flex-direction: column-reverse
+    &-avatar
+      width: 200px
+      height: 200px
+      border: 5px solid $gold
+    &-text
+      display: flex
+      flex-direction: column
+      text-align: center
+      align-items: center
+    &__button
+      padding: 16px 60px
+      
+  .skills
+    margin-bottom: 120px
+    &__cards
+      grid-template-columns: 1fr 1fr
+      text-align: center
+    &__card2
+      margin-top: 136px
+
+  .languages, .education
+    margin-bottom: 120px
+    &__cards
+      grid-template-columns: 1fr 1fr
+      text-align: center
+  .languages
+    &__speaking
+      &_card
+        max-width: 576px
+        width: 100%
+        text-align: center
+
+  .title
+    font-size: 24px
+    line-height: 28px
+    text-align: center
+  .name
+    font-size: 20px
+    line-height: 22px
+  .icons
+    width: 58px
+    height: 58px
+  .certificate
+    width: 200px
+    height: 280px
+
+@media ( max-width: 576px )
+  .container
+    max-width: 500px
+  .hero
+    margin-bottom: 100px
+    &-avatar
+      width: 120px
+      height: 120px
+      margin-bottom: 10px
+    &-text
+      &__hello
+        display: none
+        &_mobile
+          display: block
+          margin-top: 0
+          margin-bottom: 10px
+          font-size: 16px
+          line-height: 27px
+      &__name
+        font-size: 24px
+        line-height: 28px
+        margin-bottom: 10px
+      &__description
+        font-size: 14px
+        line-height: 20px
+        margin-bottom: 20px
+      &__button
+        padding: 12px 60px
+
+  .skills, .education
+    margin-bottom: 100px
+    &__cards
+      grid-template-columns: 1fr 
+      text-align: center      
+    &__card2
+      margin-top: 0      
+
+  .languages
+    margin-bottom: 100px
+    &__cards
+      grid-template-columns: 1fr
+    &__russian, &__english, &__deutsch, &__turkish, &__turkmen
+      &_name
+        font-size: 18px
+        line-height: 28px
+      &_level        
+        font-size: 14px
+        line-height: 28px
+
+  .title
+    font-size: 19px
+    line-height: 22px
+  .icons
+    width: 50px
+    height: 50px
+  .name
+    font-size: 18px
+    line-height: 28px
+  .text
+    font-size: 14px
+    line-height: 28px
+  .certificates
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+  .certificate
+    width: 100%
+    height: 100%
+    margin-bottom: 25px
+
+
