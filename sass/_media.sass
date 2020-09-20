@@ -25,6 +25,11 @@
         line-height: 48px
       &__button
         padding: 20px 80px
+
+.languages
+  &__speaking
+    &_card
+      width: 200px
     
 @media ( max-width: 768px )
   .container
@@ -56,8 +61,16 @@
     &__card2
       margin-top: 136px
 
-  .languages, .education
+  .languages, 
     margin-bottom: 120px
+    &__cards
+      grid-template-columns: 1fr 1fr
+      text-align: center
+  .languages_and_education, .projects, 
+    margin-bottom: 120px
+  .contacts
+    margin-bottom: 80px
+  .education
     &__cards
       grid-template-columns: 1fr 1fr
       text-align: center
@@ -81,6 +94,21 @@
   .certificate
     width: 200px
     height: 280px
+
+  .education
+    width: 300px
+  .languages
+    &__speaking
+      &_card
+        width: 200px
+  .projects__cards
+    text-align: center
+  .contacts
+    &__text
+      font-size: 16px
+      line-height: 27px
+    &__logo
+      margin-right: 5px
 
 @media ( max-width: 576px )
   .container
@@ -111,16 +139,28 @@
       &__button
         padding: 12px 60px
 
-  .skills, .education
+  .skills, 
     margin-bottom: 100px
     &__cards
       grid-template-columns: 1fr 
       text-align: center      
     &__card2
-      margin-top: 0      
-
+      margin-top: 0   
+  .education  
+    margin: auto 
+    &__cards
+      grid-template-columns: 1fr 
+      text-align: center      
+    &__card2
+      margin-top: 0
+  .languages_and_education
+    margin-bottom: 100px
+      
   .languages
     margin-bottom: 100px
+    &__speaking
+      &_card
+        margin: auto
     &__cards
       grid-template-columns: 1fr
     &__russian, &__english, &__deutsch, &__turkish, &__turkmen
@@ -143,13 +183,16 @@
   .text
     font-size: 14px
     line-height: 28px
-  .certificates
-    flex-direction: column
-    align-items: center
-    justify-content: space-between
-  .certificate
-    width: 100%
-    height: 100%
-    margin-bottom: 25px
+  
+  .languages_and_education, .projects, 
+    margin-bottom: 100px
+  .contacts
+    margin-bottom: 60px
+  .languages_and_education
+    &__container
+      flex-direction: column
+  .contacts
+    &__cards
+      flex-wrap: wrap
 
 
